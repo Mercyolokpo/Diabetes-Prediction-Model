@@ -11,7 +11,7 @@ import streamlit as st
 
 
 #loading the saved model
-loaded_model=pickle.load(open('C:/Users/user/Desktop/Diabetes Prediction Model/trained_model.sav','rb'))#rb=read byte(bit,binary)
+loaded_model=pickle.load(open('trained_model.sav','rb'))#rb=read byte(bit,binary)
 
 #creating a function for pridiction
 
