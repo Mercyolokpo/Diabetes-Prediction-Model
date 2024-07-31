@@ -41,11 +41,13 @@ def main():
     Pregnancies.text_input('Number of Pregnancies')
     Glucose.text_input('Glucose Level')
     BloodPressure.text_input('Blood Pressure Value')
-    SkinThickness = st.text_input('Skin Thickness Level')
-    Insulin = st.text_input('Insulin Level')
-    BMI = st.text_input('BMI Value')
-    DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function Value')
-    Age = st.text_input('Age of the Person')
+    SkinThickness, Insulin, BMI = st.columns(3)
+    SkinThickness.text_input('Skin Thickness Level')
+    Insulin.text_input('Insulin Level')
+    BMI.text_input('BMI Value')
+    DiabetesPedigreeFunction, Age = st.columns(2)
+    DiabetesPedigreeFunction.text_input('Diabetes Pedigree Function Value')
+    Age.text_input('Age of the Person')
     
     
     
