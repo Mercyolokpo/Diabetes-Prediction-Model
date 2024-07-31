@@ -36,10 +36,11 @@ def main():
     
     # getting the input data from the user
     
-    
-    Pregnancies = st.text_input('Number of Pregnancies')
-    Glucose = st.text_input('Glucose Level')
-    BloodPressure = st.text_input('Blood Pressure Value')
+
+    Pregnancies, Glucose, BloodPressure = st.columns(3)
+    Pregnancies.text_input('Number of Pregnancies')
+    Glucose.text_input('Glucose Level')
+    BloodPressure.text_input('Blood Pressure Value')
     SkinThickness = st.text_input('Skin Thickness Level')
     Insulin = st.text_input('Insulin Level')
     BMI = st.text_input('BMI Value')
