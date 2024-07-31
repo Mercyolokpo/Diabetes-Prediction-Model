@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 30 10:21:15 2024
-
-@author: user
-"""
-
 import numpy as np
 import pickle
 import streamlit as st
